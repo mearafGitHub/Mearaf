@@ -1057,7 +1057,10 @@ header .circle {
 .contact {
   position: relative;
   width: 100%;
+  align-items: center;
+  vertical-align: center;
   padding: 13.5rem 0 8.5rem;
+  border-radius: 2.5rem;
 }
 
 .contact:before,
@@ -1072,7 +1075,8 @@ header .circle {
 .contact:before {
   top: 0;
   height: 40%;
-  background: url("../img/map.png") center center / cover;
+  background-color: rgb(197, 190, 219);
+   /* url("../img/map.png") center center / cover; */ 
 }
 
 .contact:after {
@@ -1082,9 +1086,11 @@ header .circle {
 }
 
 .contact-box {
-  width: 100%;
   background-color: var(--light-one);
   width: 100%;
+  border-radius: 3.5rem;
+  box-shadow: 0,2px,8px, rgba(251, 250, 252, 0.966);
+  align-self: center;
   border-radius: 45px;
   padding: 5.5rem 4.5rem;
   display: grid;
