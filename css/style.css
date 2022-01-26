@@ -199,7 +199,7 @@ img {
   background-color: var(--main-color);
   color: var(--light-one);
   border-radius: 2rem;
-  font-size: 1.05rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   font-weight: 500;
   transition: 0.3s;
@@ -1626,7 +1626,7 @@ header .circle {
   .record-circle {
     width: 150px;
     height: 150px;
-    border-width: 3px;
+    border-width: 1px;
   }
 
   .record-circle .number {
@@ -2125,6 +2125,7 @@ header .circle {
 
   .records .container {
     grid-template-columns: 1fr;
+    align-items: center;
   }
 
   .records .half-circle {
